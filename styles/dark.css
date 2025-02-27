@@ -9,3 +9,25 @@
   --menu-text-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
 }
+
+.theme-dark.rec {
+  display: block;
+  position: absolute;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  top: 10px;
+  right: 40px;
+}
+
+.theme-dark.rec::after {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  top: 8px;
+  left: 40px;
+  box-shadow: 0 0 4px 2px var(--accent-color);
+}

@@ -363,6 +363,7 @@
   .hard__concentrate {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 10px;
   }
   .decreased__container {
     display: grid;
@@ -373,6 +374,7 @@
   .concentrat__better {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 10px;
   }
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
